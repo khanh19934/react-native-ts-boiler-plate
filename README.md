@@ -15,23 +15,17 @@
       - [Start the application (required step)](#start-the-application-required-step)
       - [Open the application in iOS simulator](#open-the-application-in-ios-simulator)
       - [Open the application in Android simulator](#open-the-application-in-android-simulator)
-    - [Test application](#test-application)
-      - [Run unit tests](#run-unit-tests)
-      - [Run tests every time code changes](#run-tests-every-time-code-changes)
-      - [Generate code coverage report](#generate-code-coverage-report)
-        - [Run tests every time code changes and generate code coverage report](#run-tests-every-time-code-changes-and-generate-code-coverage-report)
   - [Debugging](#debugging)
-  - [Deployment](#deployment)
 
 ## tltr;
 
 Sounds good and you just want to see how it works? Here is a quick start guide:
 
 ```
-git clone https://github.com/phanhoangloc/react-native-ts
-cd react-native-ts
+git clone https://github.com/khanh19934/react-native-ts-boiler-plate
+cd ReactNativeTypeScript
 yarn install
-yarn start
+yarn ios or yarn android
 ```
 
 For further setup instructions please see our [Getting Started](#getting-started) section.
@@ -95,34 +89,6 @@ $ yarn ios
 ```
 $ yarn android
 ```
-
-### Test application
-
-#### Run unit tests
-
-```
-$ yarn test
-```
-
-#### Run tests every time code changes
-
-```
-$ yarn test:watch
-```
-
-#### Generate code coverage report
-
-```
-$ yarn test:coverage
-```
-
-##### Run tests every time code changes and generate code coverage report
-
-```
-$ yarn test:wc
-```
-
-It's quite slow to watch file changes and then generate code coverage report. Despite that, it's very useful to run it on isolated/small test cases. Will improve this step in future.
 
 ## Debugging
 
