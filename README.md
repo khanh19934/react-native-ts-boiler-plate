@@ -144,7 +144,3 @@ $ open "rndebugger://set-debugger-loc?host=localhost&port=19001"
 ```
 
 > Note: Make sure you close all active chrome debugger tabs and then restart the debugger from the React Native Development context menu.
-
-## Deployment
-
-Read the **[Deployment guide](docs/DEPLOYMENT.md)** to learn how to deploy the application to test devices, app stores, and how to use Code Push to push updates to your users immediately.
